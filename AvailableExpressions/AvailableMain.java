@@ -84,7 +84,7 @@ public class AvailableMain {
 		
 	    if(args.length == 0) System.exit(-1);
 	    PackManager.v().getPack("wjtp").
-	    add(new Transform("wjtp.liveVariables", new SceneTransformer() {
+	    add(new Transform("wjtp.availableExpressions", new SceneTransformer() {
 			
 			@Override
 			protected void internalTransform (String phaseName, Map options) {
